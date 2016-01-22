@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1414546394137-673d6fe1512e?crop=entropy&dpr=2&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1700");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#title-container{
+  text-align: center;
+  padding-left:70px;
+}
+.title {
+    font-family: Amatic SC;
+    text-align: center;
+    font-size: 30px; 
+    font-size: 5vw;
+    margin-bottom: 100px;
+}
+
+#location, #tempcontainer, .info-row{
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.5);
+    font-family: Open Sans, ariel;
+    height: 62px;
+    border-radius: 6px;
+}
+
+button {
+    float: right;
+    height: 62px;
+    width: 62px;
+    text-align: center;
+    font-family: Open Sans !important;
+    font-size: 25px !important;
+}
+#footer {
+  color:white;
+  font-size:20px;
+  font-family: Open Sans;
+  float:right;
+  bottom: 0px;
+  position:absolute;
+  left:10px;
+}
